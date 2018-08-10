@@ -162,6 +162,8 @@ $(document).ready(function(){
     vex.defaultOptions.className = 'vex-theme-os';
     vex.dialog.buttons.YES.text = 'Yes!';
     vex.dialog.buttons.NO.text = 'No';
+    vex.defaultOptions.escapeButtonCloses = false;
+    vex.defaultOptions.overlayClosesOnClick = false;
 });
 
 // load animateCss
